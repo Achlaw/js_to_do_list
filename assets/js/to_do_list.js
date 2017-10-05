@@ -1,3 +1,8 @@
 $("li").click(function(){
-  $(this).toggleClass("completed")
-});;
+  $(this).toggleClass("completed");
+});
+
+$("span").click(function(clicked){
+  $(this).parent().remove();
+  clicked.stopPropagation();
+});
