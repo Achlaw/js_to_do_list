@@ -1,8 +1,8 @@
-$("li").click(function(){
+$("ul").on("click", "li", function(){
   $(this).toggleClass("completed");
 });
 
-$("span").click(function(clicked){
+$("ul").on("click", "span", function(clicked){
   $(this).parent().fadeOut(500, function(){
     $(this).remove();
   });
