@@ -1,6 +1,9 @@
 
 body {
   font-family: "helvetica";
+  background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
+  background: linear-gradient(to right, #64b3f4, #c2e59c);
+
 }
 
 h1 {
