@@ -19,6 +19,16 @@ ul {
   padding: 0;
 }
 
+li {
+  background: white; 
+  height: 40px;
+  line-height: 40px;
+}
+
+li:nth-child(2n) {
+  background: #F0F8FF;
+}
+
 #container {
   background: #F0F8FF;
   width: 400px;
