@@ -13,6 +13,6 @@ $("input[type='text']").keypress(function(clicked){
   if(clicked.which === 13){
     var newToDo = $(this).val();
     $(this).val("");
-    $("ul").append("<li><span><i class='fa fa-times' aria-hidden='true'></i></span> " + newToDo + "</li>")
+    $("ul").append("<li><span><i class='fa fa-times'></i></span> " + newToDo + "</li>")
   }
 });
