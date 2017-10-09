@@ -16,3 +16,7 @@ $("input[type='text']").keypress(function(clicked){
     $("ul").append("<li><span><i class='fa fa-times'></i></span> " + newToDo + "</li>")
   }
 });
+
+$(".fa-plus-square").click(function(){
+  $("input[type='text']").fadeToggle();
+})

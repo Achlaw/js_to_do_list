@@ -16,6 +16,10 @@ h1 {
   font-weight: normal;
 }
 
+.fa-plus-square {
+  float: right;
+}
+
 ul {
   list-style: none;
   margin: 0;
